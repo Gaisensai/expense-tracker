@@ -3,7 +3,7 @@ import Card from '../UI/Card';
 import './ExpenseItem.css';
 //import React from 'react';
 
-function ExpenseItem(props) {
+const ExpenseItem=(props)=> {
     // return React.createElement(Card,{className :"expense-item"},
     //     React.createElement(ExpenseDate,{date:props.date}),
     //     React.createElement('div',{className:"expense-item__description"},
